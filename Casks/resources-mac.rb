@@ -1,6 +1,6 @@
 cask "resources-mac" do
-  version "0.2.0"
-  sha256 "03d2e75f96a4bdaffdc9ff3be74dc51cc6427194ab072ae67a6d0e84b237667e"
+  version "0.3.0"
+  sha256 "b17a5f89b10b1265676cd0f885e3019aa5831b58559dc8156a98e2a673bd0cf9"
 
   url "https://github.com/VachaganGrigoryan/resources-mac/releases/download/v#{version}/resources-mac-#{version}.dmg"
   name "Resources"
