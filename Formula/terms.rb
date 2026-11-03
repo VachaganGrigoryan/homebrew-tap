@@ -1,5 +1,5 @@
 class Terms < Formula
-  desc "Independently implemented terminal toolkit: ls, search, json, pick, jump, history, git"
+  desc "Terminal toolkit: ls, search, json, pick, jump, history, git"
   homepage "https://github.com/VachaganGrigoryan/Terms"
   version "0.1.0"
   license "MIT"
