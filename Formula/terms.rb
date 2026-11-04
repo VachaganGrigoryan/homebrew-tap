@@ -1,28 +1,28 @@
 class Terms < Formula
   desc "Terminal toolkit: ls, search, json, pick, jump, history, git"
   homepage "https://github.com/VachaganGrigoryan/Terms"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/VachaganGrigoryan/Terms/releases/download/v0.1.0/terms-aarch64-apple-darwin.tar.gz"
-      sha256 "8c798b0d51d228425deaa7c2f576d2b8d1f7fed72fbc023d8092ea0ff13034e1"
+      url "https://github.com/VachaganGrigoryan/Terms/releases/download/v0.1.1/terms-aarch64-apple-darwin.tar.gz"
+      sha256 "620944524fd8da770008ebefd53e0cb107cd1b366da0fb725cc8b3d5b8b99c39"
     end
     on_intel do
-      url "https://github.com/VachaganGrigoryan/Terms/releases/download/v0.1.0/terms-x86_64-apple-darwin.tar.gz"
-      sha256 "b7c1eaff84bf96043768d006d41208c8f8a8a32090e30ffcc089a6bcaf99405f"
+      url "https://github.com/VachaganGrigoryan/Terms/releases/download/v0.1.1/terms-x86_64-apple-darwin.tar.gz"
+      sha256 "fe71a0de4ade24c0cb95d710f7c886b8a4d4ef758d328bf4fbf7ad60aac5ef92"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/VachaganGrigoryan/Terms/releases/download/v0.1.0/terms-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "9cf214bf4f0a05cdba7c2d2d57eb67312735aebba3a4d55e99d8682336096939"
+      url "https://github.com/VachaganGrigoryan/Terms/releases/download/v0.1.1/terms-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "0bc02f40e0190f19fa6e135fba4a50b0e22e97b276baea786c00d86d2228b750"
     end
     on_intel do
-      url "https://github.com/VachaganGrigoryan/Terms/releases/download/v0.1.0/terms-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "d324768d1d0afe4731b898b347d845ed788e0e5d79c07ed5483d700065fa9b39"
+      url "https://github.com/VachaganGrigoryan/Terms/releases/download/v0.1.1/terms-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "5dcc6993efb11110c2ad2bd0f191371acc758a4f735e6c26ec9d2b7c095aa75d"
     end
   end
 
